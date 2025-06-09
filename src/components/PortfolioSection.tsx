@@ -84,9 +84,6 @@ const PortfolioSection = () => {
                   <Button variant="outline" size="sm" className="hover:bg-primary hover:text-white">
                     View Details
                   </Button>
-                  <Button variant="ghost" size="sm">
-                    Live Demo
-                  </Button>
                 </div>
               </CardContent>
             </Card>
