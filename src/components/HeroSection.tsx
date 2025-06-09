@@ -18,20 +18,7 @@ const HeroSection = () => {
       <div className="absolute bottom-20 right-10 w-40 h-40 bg-accent/10 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto text-center animate-fade-in relative z-10">
-        {/* Enhanced profile section */}
-        <div className="relative inline-block mb-8">
-          <div className="w-40 h-40 mx-auto bg-gradient-to-br from-primary via-primary/80 to-accent rounded-full flex items-center justify-center text-white text-5xl font-bold shadow-2xl border-4 border-white">
-            AB
-          </div>
-          <div className="absolute -top-2 -right-2 w-12 h-12 bg-accent rounded-full flex items-center justify-center shadow-lg">
-            <Code2 className="w-6 h-6 text-white" />
-          </div>
-          <div className="absolute -bottom-2 -left-2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg">
-            <Gamepad2 className="w-6 h-6 text-white" />
-          </div>
-        </div>
-        
-        <div className="space-y-6 max-w-4xl mx-auto">
+        <div className="space-y-8 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Hi, I'm <span className="gradient-text">Ansh Bhandary</span>
           </h1>
